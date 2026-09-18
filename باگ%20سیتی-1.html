@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RP City Bugs - ترفندهای مخفی</title>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --card-bg: #1e293b;
+            --blue-accent: #38bdf8;
+            --gold-accent: #fbbf24;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* عنوان اصلی با افکت نئون */
+        h1 {
+            color: var(--blue-accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+            margin-bottom: 30px;
+        }
+
+        /* کارت‌های باگ */
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 15px;
+            width: 100%;
+            max-width: 500px;
+            border-left: 6px solid var(--blue-accent);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.2);
+        }
+
+        .card-title {
+            color: var(--blue-accent);
+            font-weight: 800;
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .card-content {
+            color: var(--text-main);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .channel-tag {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            background: rgba(0,0,0,0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        /* کارت تبلیغات طلایی */
+        .ad-card {
+            background: linear-gradient(145deg, #241e12, #1a150a);
+            border-left: 6px solid var(--gold-accent);
+            border-radius: 16px;
+            padding: 25px;
+            margin-top: 40px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            border: 1px solid #4a3f20;
+        }
+
+        .ad-title {
+            color: var(--gold-accent);
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 0 0 8px rgba(251, 191, 36, 0.4);
+        }
+
+        .btn-join {
+            display: block;
+            background: var(--gold-accent);
+            color: #000;
+            padding: 14px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 800;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            transition: transform 0.2s, filter 0.2s;
+        }
+
+        .btn-join:hover {
+            transform: scale(1.03);
+            filter: brightness(1.1);
+        }
+
+        .creator-credit {
+            margin-top: 40px;
+            padding: 16px 24px;
+            color: var(--blue-accent);
+            font-size: 1.3rem;
+            font-weight: 800;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.35);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔱 RP City Bugs 🔱</h1>
+
+    <!-- لیست باگ‌ها -->
+    <div class="card">
+        <span class="card-title">🛒 باگ خرید خودکار</span>
+        <div class="card-content">با استفاده از اتوکلیکر و تنظیم فاصله حداقل ۵۰۰ میلی‌ثانیه، دکمه‌ها را در محل مناسب قرار دهید.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">💎 باگ سنگ قیمتی</span>
+        <div class="card-content">هنگام برداشتن سنگ حرکت کنید تا احتمال دریافت ۲ یا ۳ سنگ بیشتر شود. سنگ‌های اضافه را می‌توان با گندم ترکیب و به آرد تبدیل کرد.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">🌳 باگ چوب</span>
+        <div class="card-content">با سرباز ۲۰ سیب جمع کنید، انرژی را کنار حوض پر کنید و سپس با کشاورز ۱۰ سیب دیگر بردارید. سیب یازدهم ممکن است چوب بدهد.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">💰 باگ کارمزد بانک</span>
+        <div class="card-content">در بانک حقوق بگیرید، سریع عقب و جلو بروید و دوباره درخواست حقوق دهید. ممکن است کارمزد کامل کسر نشود.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">🚀 باگ کاهش قیمت خودرو و آیتم</span>
+        <div class="card-content">وسپا را از پارکینگ خارج کرده و اطراف آن حرکت کنید. سپس بازی را ببندید، دوباره وارد شوید و منوی جم را باز و بسته کنید.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">😍 باگ آسانسور</span>
+        <div class="card-content">ماشین را کنار آسانسور قرار دهید، یک بازیکن را جلوی آن بگذارید و با پرش و تکل روی ماشین بروید تا به قسمت بالایی برسید.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">⚽ باگ خروج توپ از زمین</span>
+        <div class="card-content">توپ را چند بار شوت کنید تا شاید از زمین خارج شود و بتوانید بیرون از محدوده با آن بازی کنید.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">👮‍♂️ باگ زندانی‌کردن پلیس</span>
+        <div class="card-content">یک اسکین غیرپلیس انتخاب کنید، آن را به پلیس تغییر دهید و سریع گزینه زندانی‌کردن را بزنید.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="card">
+        <span class="card-title">☠️ باگ فروش آیتم از راه دور</span>
+        <div class="card-content">در حالت دونفره، پنل خرید فروشنده را باز کنید و گزینه فروش را انتخاب کنید. با خروج فروشنده، پنل فروش همچنان فعال می‌ماند.</div>
+        <div class="channel-tag">🔱 کانال: @RpTk123</div>
+    </div>
+
+    <div class="creator-credit">ساخت کلن TK</div>
+
+</body>
+</html>
